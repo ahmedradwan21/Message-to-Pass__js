@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body,html
+{
+    background: #0a0a0a;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+h4
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* font-family: inherit; */
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #fff;
+}
+h5
+{
+    background-color: #8b220d;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+.container
+{
+    width: 600;
+    background-color: #222099;
+    padding: 25px 30px;
+    position: relative;
+    top: 25%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+form
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+form input
+{
+margin: 10px 0;
+outline: none;
+border-radius: 5px;
+border: 1px solid #6665ee;
+}
+form input.box
+{
+    width: 500px;
+    height: 25px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+form input.button
+{
+    width: 100px;
+    background-color: #6665ee;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.feedback
+{
+    display: none;
+}
+.message-content
+{
+    color: #a20909;
+}
+.show
+{
+    display: block;
+}
